@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-lesson7</title>
+    <style>
+        .main-container {
+            /* border:1px solid black; */
+        }
+
+        .tittle-box {
+            height: 80px;
+            padding-left: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: gold;
+        }
+
+        .main-flex-box {
+            height: 400px;
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP.ndGbu-RrVY4Dk2sVQBgNXwAAAA&pid=Api&P=0&h=220);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+
+        }
+
+        .image-box {
+            height: 0px;
+            width: 1063px;
+
+        }
+
+        .big-flex-box {
+            display: flex;
+            background-color: gold;
+            height: 400px;
+        }
+
+        .item-box-1 {
+            width: 550px;
+            background-image: url(https://tse1.mm.bing.net/th?id=OIP.qdIvFz2yETIZz_RwePmxswHaEK&pid=Api&P=0&h=220);
+            background-image: url();
+        }
+
+        .item-box-2 {
+            width: 550px;
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP.zqQsKXzPtV4YRi6E_XDCaAHaHa&pid=Api&P=0&h=220);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .small-flex-box {
+            display: flex;
+            height: 360px;
+            column-gap: 20px;
+            margin: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .small-image-box {
+            padding: 10px;
+            height: 145px;
+            width: 215px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="tittle-box">
+            <h2>Watch market</h2>
+        </div>
+        <div class="main-flex-box"></div>
+    </div>
+    <div class="image-box"></div>
+    <div class="big-flex-box">
+        <div class="item-box-1">
+            <div class="small-flex-box">
+                <div class="small-image-box"
+                    style="background-image: url(https://tse2.mm.bing.net/th?id=OIP.9ErMVADsoxLaNkSHkkQ_PQHaFj&pid=Api&P=0&h=220);">
+                </div>
+                <div class="small-image-box"
+                    style="background-image: url(https://tse2.mm.bing.net/th?id=OIP.DXUHInyc2QhtV82PaXiQ6QHaHS&pid=Api&P=0&h=220);">
+                </div>
+                <div class="small-image-box"
+                    style="background-image: url(https://tse3.mm.bing.net/th?id=OIP.ae5IpspGr82fl-VE9jJomAHaHa&pid=Api&P=0&h=220);">
+                </div>
+                <div class="small-image-box"
+                    style="background-image: url(https://tse3.mm.bing.net/th?id=OIP.yXRCLlbLAR3_UcGiKJdYDwHaHa&pid=Api&P=0&h=220);">
+                </div>
+            </div>
+        </div>
+        <div class="item-box-2"></div>
+    </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
